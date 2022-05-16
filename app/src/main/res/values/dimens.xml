@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="input_margin_bottom">15dp</dimen>
+
+    <dimen name="input_text_size">15sp</dimen>
+    <dimen name="input_button_size">65dp</dimen>
+    <dimen name="input_size">60dp</dimen>
+    <dimen name="title">25sp</dimen>
+    <dimen name="input_corner_radius">8dp</dimen>
+</resources>

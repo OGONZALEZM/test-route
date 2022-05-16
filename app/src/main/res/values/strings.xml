@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="email">"Correo Electrónico "</string>
+    <string name="password">Contraseña</string>
+    <string name="login">INICIAR SESIÓN</string>
+
+    <string name="error_email_invalid">Email invalido.</string>
+    <string name="error_username_empty">Debe ingresar un nombre de usuario.</string>
+    <string name="error_password_empty">Debe ingresar una contraseña.</string>
+    <string name="loading">Cargando</string>
+    <string name="error_login">Error inicio de sesión</string>
+    <string name="username">Usuario</string>
+    <string name="plate">placa</string>
+    <string name="search">Buscar</string>
+    <string name="error_plate_empty">Debe ingresar una placa</string>
+    <string name="error_plate_format">La placa debe tener 6 digitos.</string>
+    <string name="searching">Buscando</string>
+    <string name="error_not_route_found">No se encontro la ruta</string>
+    <string name="name">Nombre:</string>
+    <string name="route">Ruta</string>
+    <string name="address">address</string>
+    <string name="phone">Teléfono</string>
+    <string name="time">Hora</string>
+</resources>

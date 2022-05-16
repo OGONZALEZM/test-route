@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.oscar.test.ui.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_loginFragment_to_routeFragment"
+            app:destination="@id/routeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/routeFragment"
+        android:name="com.oscar.test.ui.route.RouteFragment"
+        android:label="route_fragment"
+        tools:layout="@layout/route_fragment" />
+
+</navigation>
